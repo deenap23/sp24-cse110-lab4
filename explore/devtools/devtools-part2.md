@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are actually strings and not integers, so when they are added together it actually concatenates the numbers together instead of adding them.
+2. I would fix this by casting num1 and num2 into floats using parseFloat() before adding them together so that + performs addition and not conatenation. 
